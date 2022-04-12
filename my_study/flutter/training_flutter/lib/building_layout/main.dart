@@ -143,8 +143,5 @@ class _FavoriteWidgetState extends State<FavoriteWidget> {
 }
 
 const BuildingLayout = MaterialApp(
-  title: 'My app', // used by the OS task switcher
-  home: Scaffold(
-    body: MyBuildingLayout(),
-  ),
-);
+    title: 'My app', // used by the OS task switcher
+    home: MyBuildingLayout());
